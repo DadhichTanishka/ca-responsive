@@ -1,0 +1,105 @@
+*{
+    background-color: rgb(3, 102, 102);
+}
+
+
+
+nav{
+    position: sticky;
+    top: 0px;
+    background-color: rgb(1, 1, 24);
+    height: 50px;
+    display: flex;
+    justify-content: space-between ;
+}
+.navimg{
+    background-color: rgb(1, 1, 24);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#cart{
+    margin-right: 10px;
+}
+#navi{
+   display: flex;
+   flex-direction: row;
+    background-color: rgb(15, 15, 61);
+    margin-top: 0;
+    justify-content: space-between;
+    color: white;
+    
+
+}
+
+#under{
+    display: inline-block;
+    color: white;
+    font-size: large;
+    margin-top: 0px;
+    margin-left: 50px;
+}
+#earpod{
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 500px;
+    margin-right: 50px;
+
+}
+#images{
+    display: inline-flex;
+}
+#rewamp{
+    margin-left: 20px;
+}
+.white{
+    background-color: white;
+}
+#aligns{
+    margin-left: 20px;
+}
+#align{
+    margin-left: 20px;
+}
+button{
+    background-color: yellow;
+}
+#laptop{
+    margin-top: 20px;
+}
+#images{
+    margin-top: 20px;
+}
+#nav{
+    margin-top: 5px;
+    background-color: rgba(3, 3, 26, 0.986);
+}
+.ss{
+    background-color: white;
+}
+#navi>p{
+    background-color: rgb(15, 15, 61); ;
+}
+#cc
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media(max-width:1000px){
+    #navi,nav,#under,#images,.white,#align{
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        padding: auto;
+
+        
+    }
+    #cc{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+         width: 50vw;
+    }
+    button{width: 50vw;}
+   
+    }
